@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="nameEditText">Name :</string>
+    <string name="sayHelloButton">Say Hello</string>
+    <string name="sayHelloTextView">Hello, %1$s</string>
+    <string-array name="names">
+        <item>Kevin</item>
+        <item>Joshua</item>
+        <item>Pulung</item>
+    </string-array>
+</resources>
