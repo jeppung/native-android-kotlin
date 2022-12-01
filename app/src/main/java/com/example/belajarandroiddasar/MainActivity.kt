@@ -42,6 +42,12 @@ class MainActivity : AppCompatActivity() {
             Log.i("PZN", resources.getColor(R.color.background, theme).toString())
 
             sayHelloButton.setBackgroundColor(resources.getColor(R.color.background, theme))
+
+            val json = assets.open("sample.json").bufferedReader().use { it.readText() }
+            Log.i("JSON", json);
+
+            val raw_json = resources.openRawResource(R.raw.sample).bufferedReader().use { it.readText() }
+            Log.i("JSON", raw_json);
         }
 
     }
